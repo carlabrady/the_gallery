@@ -14,15 +14,17 @@
 <body ng-app="myApp">
     <h1>My Gallery</h1>
     <main class="container" ng-controller="GalleryController as GC">
-        <section class="col-md-4" ng-repeat= "pic in GC.picArray">
-            <div ng-click="GC.toggle(pic)">
-                <img class="img-rounded" ng-hide="pic.view" ng-src="{{ pic.image }}">                    
-                <p class="text" ng-show="pic.view" >{{pic.info}}</p>
-            </div>
-            <div>
-                <button class="likes" ng-click="likes=likes + 1">&#x1f44d {{likes}}</button>                    
-            </div>
-        </section>
+        <div class="row">
+            <section class="col-md-4" ng-repeat= "pic in GC.picArray">
+                <div ng-click="GC.toggle(pic)">
+                    <img class="img-responded" ng-hide="pic.view" ng-src="{{ pic.image }}">                    
+                    <p class="text" ng-show="pic.view" >{{pic.info}}</p>
+                </div>
+                <div>
+                    <button class="likes" ng-click="likes=likes + 1">&#x1f44d {{likes}}</button>                    
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 </html>
