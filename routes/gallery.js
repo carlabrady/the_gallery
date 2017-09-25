@@ -26,7 +26,7 @@ var pic5 = {
 }
 
 var pic6 = {
-    image: '/images/brady_Wedding.jpg',
+    image: '/images/brady_wedding.jpg',
     info: 'Me and my best friend on our wedding day.'
 }
 
