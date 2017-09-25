@@ -21,7 +21,7 @@
                     <p type="text" ng-show="pic.view" >{{pic.info}}</p>
                 </div>
                 <div>
-                    <button class="rounded" ng-click="likes=likes + 1">&#x1f44d {{likes}}</button>                    
+                    <button class="rounded" ng-click="GC.addLikes($index)">&#x1f44d {{pic.likes}}</button>                    
                 </div>
                 <!-- <div>
                     <button class="rounded" ng-click="GC.addComment()">Add Comment</button>                    

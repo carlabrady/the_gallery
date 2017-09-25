@@ -17,6 +17,17 @@ myApp.controller('GalleryController', function($http) {
         });
     };
 
+    vm.addLikes = function(index) {
+        $http ({
+            method: 'PUT',
+            url: '/gallery',
+            data: {index: index}
+        }).then (function(response){
+            console.log('back from server', response);
+            vm.getPics();
+        })
+    }
+
     // get all pics on page load
     vm.getPics();
 
