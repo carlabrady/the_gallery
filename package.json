@@ -1,6 +1,9 @@
 {
   "name": "the_gallery",
   "version": "1.0.0",
+  "engines": {
+    "node": "v8.2.1"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {

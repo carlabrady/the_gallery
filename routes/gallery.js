@@ -27,7 +27,7 @@ var pic5 = {
 
 var pic6 = {
     image: '/images/brady_wedding.jpg',
-    info: 'Me and my best friend and our wedding day.'
+    info: 'Me and my best friend on our wedding day.'
 }
 
 var picArray = [pic1, pic2, pic3, pic4, pic5, pic6]

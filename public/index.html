@@ -17,18 +17,18 @@
         <div class="row">
             <section class="col-md-4 element" ng-repeat= "pic in GC.picArray">
                 <div ng-click="GC.toggle(pic)">
-                    <img class="img-responded" ng-hide="pic.view" ng-src="{{ pic.image }}">                    
-                    <p class="text" ng-show="pic.view" >{{pic.info}}</p>
+                    <img class="img-responsive" ng-hide="pic.view" ng-src="{{ pic.image }}">                    
+                    <p type="text" ng-show="pic.view" >{{pic.info}}</p>
                 </div>
                 <div>
                     <button class="rounded" ng-click="likes=likes + 1">&#x1f44d {{likes}}</button>                    
                 </div>
-                <div>
+                <!-- <div>
                     <button class="rounded" ng-click="GC.addComment()">Add Comment</button>                    
                 </div>
                 <div>
                     <button class="rounded" ng-click="GC.veiwComment()">View Comments</button>                    
-                </div>
+                </div> -->
             </section>
         </div>
     </main>
