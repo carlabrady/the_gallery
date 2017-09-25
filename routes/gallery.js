@@ -11,7 +11,7 @@ var pic2 = {
 };
 
 var pic3 = {
-    image: '/images/Emily&Carla.jpg',
+    image: '/images/EmilyCarla.jpg',
     info: 'My sister and I enjoyed playing in the rain.'
 }
 
@@ -26,7 +26,7 @@ var pic5 = {
 }
 
 var pic6 = {
-    image: '/images/brady_wedding.jpg',
+    image: '/images/bradyWedding.jpg',
     info: 'Me and my best friend on our wedding day.'
 }
 
