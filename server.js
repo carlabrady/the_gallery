@@ -11,6 +11,4 @@ app.use('/', index);
 app.use('/gallery', gallery);
 
 // spin up server
-app.listen( 5452, function(){
-    console.log('server listening 5452');
-});
+app.listen(process.env.PORT || 5452);
